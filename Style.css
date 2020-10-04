@@ -4,7 +4,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
+.bold{
+	font-weight: 800;
+}
 html{
     font-size: 10px;
     font-style: 'Montserrat', sans-serif;
@@ -28,7 +30,7 @@ img {
 }
 p {
 	color: black;
-	font-size: 1.4rem;
+	font-size: 1.7rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
 	font-weight: 300;
@@ -38,7 +40,7 @@ p {
 	font-size: 4rem;
 	font-weight: 300;
 	color: black;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	text-align: center;
@@ -70,7 +72,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: crimson;
+	color:crimson;
 }
 
 /* Header section */
@@ -333,7 +335,7 @@ p {
 	text-transform: uppercase;
 }
 #services .service-item p {
-	color: black;
+	color: whitesmoke;
 	text-align: left;
 }
 
@@ -347,7 +349,7 @@ p {
 	padding: 100px 0;
 }
 #projects .projects-header h1 {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 #projects .all-projects {
 	display: flex;
@@ -373,26 +375,30 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-color: white;
 	color: white;
 }
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
+	color: black;
 }
 #projects .project-info h2 {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	font-weight: 500;
-	margin-top: 10px;
+	margin-top: 5px;
+	color: black;
 }
 #projects .project-info p {
-	color: white;
+	color: black;
+	font-weight: 100;
 }
 #projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
+	border-radius: 30px;
 }
 #projects .project-img:after {
 	content: '';
@@ -401,14 +407,15 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: .7;
+	/* background-image: linear-gradient(60deg, #030303 0%, #485563 100%); */
+	/* opacity: .7; */
 }
 #projects .project-img img {
 	transition: .3s ease transform;
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
+	background: transparent;
 }
 /* End Projects Section */ 
 
@@ -491,9 +498,9 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	box-shadow: 0px 0px 18px 0 blue;
+	box-shadow: 0px 0px 18px 0 crimson;
 	transition: .3s ease box-shadow;
-	background-color: #485563;
+	background-color: whitesmoke;
 }
 #contact .contact-item:hover {
 	box-shadow: 0px 0px 5px 0 bl;
@@ -502,7 +509,7 @@ p {
 #contact .icon {
 	width: 70px;
 	margin: 0 auto;
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
 }
 #contact .contact-info h1 {
 	font-size: 2.5rem;
@@ -518,7 +525,7 @@ p {
 
 /* Footer */
 #footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #9989cf 0%, #db85be 100%);
 }
 #footer .footer {
 	min-height: 200px;
@@ -628,7 +635,7 @@ p {
 	}
 	#projects .project-item {
 		height: 400px;
-		margin: 0;
+		margin: 20px;
 		width: 100%;
 		border-radius: 0;
 	}
