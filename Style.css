@@ -52,7 +52,7 @@ p {
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: white;
+	color: rgb(43, 47, 168);
 	background-color: transparent;
 	border: 2px solid crimson;
 	font-size: 2rem;
